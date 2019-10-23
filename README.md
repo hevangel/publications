@@ -1,2 +1,9 @@
-# publications
-PDFs of my publications
+# My Publications
+
+## How to test the whole firmware/software when the RTL can’t fit the emulator - DVCON2019 (best paper award 2nd place)
+
+Pre-silicon firmware and software (FW/SW) testing is a necessity for all silicon companies. One of the biggest challenge is when the RTL cannot fit inside the emulator. In verification, it is a common practice to black box unused logic in the RTL to reduce gate count. However, adopting this approach in emulation has unique challenges due to the difference in the architecture of an UVM testbench compared to the actual FW/SW. In this paper, we will present our strategy on how to run the full FW/SW on blackboxed RTL in the emulator using a Hybrid Software Simulator (HSWSIM). The paper will compare the benefit of our strategy over using existing solutions, such as virtual platform. Then the paper will describe the architecture of the HSWSIM and outline its two use models, one to test user space FW code and the other to test kernel space FW code. The final section of the paper presents the results of using HSWSIM to bring up the FW/SW in our latest generation chip.
+
+## IDEs SHOULD BE AVAILABLE TO HARDWARE ENGINEERS TOO! - DVCON2018
+
+Modern integrated development environments (IDEs) represent a new era of tools for code development and debug, and are pushing out legacy software development environments in Vim and Emacs. However, why limit using these tools exclusively in the software world? When in fact the benefits of using a GUI based development environment for HDL programming has a direct impact on the hardware development and verification effort required. This paper illustrates the advantages of using SystemVerilog IDEs which, when properly employed, can help decrease debug and turnaround times related to code compilation and simulation, improve code readability, comprehension and maintainability, and boost productivity.
