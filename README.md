@@ -4,9 +4,13 @@
 
 Pre-silicon firmware and software (FW/SW) testing is a necessity for all silicon companies. One of the biggest challenge is when the RTL cannot fit inside the emulator. In verification, it is a common practice to black box unused logic in the RTL to reduce gate count. However, adopting this approach in emulation has unique challenges due to the difference in the architecture of an UVM testbench compared to the actual FW/SW. In this paper, we will present our strategy on how to run the full FW/SW on blackboxed RTL in the emulator using a Hybrid Software Simulator (HSWSIM). The paper will compare the benefit of our strategy over using existing solutions, such as virtual platform. Then the paper will describe the architecture of the HSWSIM and outline its two use models, one to test user space FW code and the other to test kernel space FW code. The final section of the paper presents the results of using HSWSIM to bring up the FW/SW in our latest generation chip.
 
-## Pre-Silicon SW/FW Testing with Protium S1 A Case Study - CDNLIVE2018 (best paper award verification track)
+## Pre-Silicon SW/FW Testing with Protium S1 A Case Study - CDNLIVE2018 (best paper award SoC/System Verification Track)
+
+A case study of pre-silicon SW/FW testing using Protium S1.  Boot up Linux in the embedded ARM core successfully.  Verify the PCIe interface is working as expected and test out low level FW download procedures.  Verify the ARM CoreSight is wired up correct with live interaction of the DSTREAM probe.  All major datapath are up and running in the first SW release.  
 
 ## Speedup the Debug Turnaround Time and Regression Run Time with SystemVerilog/UVM Test Dynamic Load - CDNLIVE2018 
+
+Present a verification methodology using the new SystemVerilog dynamic load feature in the Xcelium simulator, which mimics the old dynamc load feature in Specman.  RTL debug turnaround time is speeded up by 90% and the total regression time is reduced by 25%.
 
 ## IDEs SHOULD BE AVAILABLE TO HARDWARE ENGINEERS TOO! - DVCON2018
 
