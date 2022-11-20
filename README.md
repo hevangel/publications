@@ -1,6 +1,6 @@
 # Abstracts:
 
-## Is it a software bug? Is it a hardware bug?
+## Is it a software bug? Is it a hardware bug? - DVCON2022
 [paper](dvcon2022_emulation_sw_hw_bug.pdf) [slides](dvcon2022_emulation_sw_hw_bug_slides.pptx)
 
 Pre-silicon firmware and software (FW/SW) testing on emulation platforms drastically shorten the time to market by shifting left the project schedules. As a result, the FW/SW is integrated with the RTL in a much earlier stage when the RTL code is less stable. When a test failure occurs, sometimes it is very hard to determine whether the issue is originated in the software code or the hardware code. In this paper, we will present our strategy on how to triage the root cause of the bug, provides tips and tricks on the implementation of the software/hardware co-verification utilities used in our process. We will also include some pointers on how to reuse the emulation debug flow for post-silicon debug.
